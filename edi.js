@@ -26,3 +26,8 @@ console.log(todojson);
 for (let i = 0; i < todos.length; i++) {
     console.log(todos[i].text); 
 }
+//function as above for loop
+for(let todo of todos){
+    console.log(todo.id);
+
+}
