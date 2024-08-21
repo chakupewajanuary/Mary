@@ -136,6 +136,7 @@ function onSubmit(e){
     e.preventDefault();
     if(Name.value==""||Email.value==""){
         Msg.innerHTML="please fill the fields";
+        setTimeout(()=>Msg.remove(), 3000);
 
     }
 }
