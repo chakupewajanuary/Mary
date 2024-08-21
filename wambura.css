@@ -13,3 +13,12 @@ body{
     box-sizing: border-box;
     
 }
+#footer{
+    color: green;
+}
+.button:hover{
+    color: red;
+}
+.button:visited{
+    color: #0048ff;
+}
