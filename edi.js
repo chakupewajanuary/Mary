@@ -141,8 +141,14 @@ function onSubmit(e){
     }
 }
 
+// to day adds file code
+for(let {} of todos){
+    console.log(tob.text)
+}
 
-
+const uu=todos;
+const rrr=uu.id;
+console.log(rrr);
 
 
 

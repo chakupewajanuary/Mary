@@ -22,3 +22,7 @@ body{
 .button:visited{
     color: #0048ff;
 }
+.footer{
+    text-align: center;
+    text-decoration: underline;
+}
