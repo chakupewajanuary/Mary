@@ -164,8 +164,20 @@ const man=add(()=>{
 const my=new addnum(2,4,3);
 console.log(my.mani);
 
+//27th august thursday commit
+mayai=[{
+    history:"math",
+    display:"language",
+
+}]
 
 
+Form.addEventListener('dblclick',onabort)
+
+function onabort(){
+    Form.style.background='red';
+    
+}
 
 
 
