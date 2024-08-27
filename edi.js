@@ -150,7 +150,19 @@ const uu=todos;
 const rrr=uu.id;
 console.log(rrr);
 
+//method for test how i can commit child branch only
 
+function addnum(base,length,height){
+    this.base=base;
+    this.length=length;
+    this.height=height;
+}
+const man=add(()=>{
+    volume=this.base*this.length*this.height
+    return volume;
+})
+const my=new addnum(2,4,3);
+console.log(my.mani);
 
 
 
