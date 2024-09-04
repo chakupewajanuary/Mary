@@ -133,16 +133,19 @@ function onClick(e){
 Form.addEventListener('submit',onSubmit)
 
 function onSubmit(e){
+
     e.preventDefault();
     if(Name.value==""||Email.value==""){
         Msg.innerHTML="please fill the fields";
         setTimeout(()=>Msg.remove(), 3000);
 
     }
+    
+
 }
 
 // to day adds file code
-for(let {} of todos){
+for(let tob of todos){
     console.log(tob.text)
 }
 
